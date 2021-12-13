@@ -7,5 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Armazem extends Model
 {
+    protected $fillable = [
+        'endereco'
+    ];
     use HasFactory;
 }

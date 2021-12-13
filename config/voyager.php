@@ -12,7 +12,7 @@ return [
 
     'user' => [
         'add_default_role_on_register' => true,
-        'default_role'                 => 'user',
+        'default_role'                 => 'Vendedor',
         'default_avatar'               => 'users/default.png',
         'redirect'                     => '/admin',
     ],
@@ -144,7 +144,7 @@ return [
         ],
 
         'widgets' => [
-
+            'App\\Widgets\\Vendas',
         ],
 
     ],
@@ -181,7 +181,7 @@ return [
     |
     */
 
-    'primary_color' => '#22A7F0',
+    'primary_color' => '#DF3B18',
 
     'show_dev_tips' => true, // Show development tip "How To Use:" in Menu and Settings
 
